@@ -16,3 +16,8 @@ function generaNumeri(){
 
     return numeri;
 }
+
+function stampaNumeri(numeri){
+    const risultato = document.getElementById('numeri-random');
+    risultato.textContent = numeri.join(" ");
+}
