@@ -42,5 +42,9 @@ stampaNumeri(numeriRandom);
 
 setTimeout(function(){
     document.getElementById("numeri").textContent = "";
+}, 2000)
+
+setTimeout(function(){
+    document.getElementById("numeri").textContent = "";
     indovinaNumeri(numeriRandom);
 }, 5000);
