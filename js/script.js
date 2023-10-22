@@ -3,6 +3,11 @@ const inputUtente = numeriUtente();
 
 stampaNumeri(numeriRandom);
 
+setTimeout(function(){
+    document.getElementById('numeri-random').textContent = "";
+    indovinaNumero(inputUtente, numeriRandom);
+}, 30000)
+
 //utility
 
 function getRndInteger(min, max) {
