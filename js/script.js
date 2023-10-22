@@ -13,4 +13,6 @@ function generaNumeri(){
     for(let i = 0; i < 5; i++){
         numeri.push(getRndInteger(1,100));
     }
+
+    return numeri;
 }
