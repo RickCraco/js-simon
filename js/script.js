@@ -28,7 +28,7 @@ function indovinaNumeri(numeriRandom){
         }
     }
 
-    alert('hai indovinato' + numeriCorretti.length + "numeri : " + numeriCorretti.join(", "));
+    alert('hai indovinato ' + numeriCorretti.length + " numeri : " + numeriCorretti.join(", "));
 }
 
 //utility
